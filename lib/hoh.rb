@@ -31,6 +31,71 @@
 # }
 
 def naming_system
+kingdom_hash = { 
+  :Kingdom => {
+   :Phylum => {
+     :Kingdom => {},
+      :Class => {
+       :Kingdom => {
+         :Phylum => {},
+       :Phylum => {
+         :Kingdom => {
+         :Phylum => {},
+       :Order => {
+         :Kingdom => {
+          :Phylum => {
+          :Class => {},  
+         :Phylum => {
+           :Kingdom =>{
+            :Phylum => {
+              :Class => {},
+         :Class => {
+           :Kingdom => {
+           :Phylum => {
+           :Class => {},
+             }, 
+           },
+         },
+       },
+      },
+   },
+  },
+},
+           },
+         },
+           },
+           }, 
+         },
+       },
+  },
+}
+end
+#       family =
+#           :Family => {
+#           :Kingdom => {},
+#           :Phylum => {},
+#           :Class => {},
+#           :Order => {},
+#             :Genus => {
+#               :Kingdom => {},
+#               :Phylum => {},
+#               :Class => {},
+#               :Order => {},
+#               :Family => {},
+#               :Species => {
+#                 :Kingdom => {},
+#                 :Phylum => {},
+#                 :Class => {},
+#                 :Order => {},
+#                 :Family => {},
+#                 :Genus => {}
+#               },
+#           },
+#         },
+#   },
+# },
+# }
+
   # Remember:
   #  Kingdom
   #  Phylum
@@ -42,4 +107,42 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
 
-end
+# def naming_system
+# kingdom_hash = { 
+#   :Kingdom => {
+#   :Phylum => {
+#     :Kingdom => {},
+#       :Class => {
+#       :Kingdom => {}, 
+#       :Phylum => {},
+#         :Order => {
+#         :Kingdom => {},
+#         :Phylum => {},
+#         :Class => {},
+#           :Family => {
+#           :Kingdom => {},
+#           :Phylum => {},
+#           :Class => {},
+#           :Order => {},
+#             :Genus => {
+#               :Kingdom => {},
+#               :Phylum => {},
+#               :Class => {},
+#               :Order => {},
+#               :Family => {},
+#               :Species => {
+#                 :Kingdom => {},
+#                 :Phylum => {},
+#                 :Class => {},
+#                 :Order => {},
+#                 :Family => {},
+#                 :Genus => {}
+#               },
+#           },
+#         },
+#       },
+#     },
+#   },
+# },
+# }
+
