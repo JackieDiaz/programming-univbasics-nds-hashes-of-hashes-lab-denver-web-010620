@@ -134,42 +134,5 @@ first_node = {
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
 
-# def naming_system
-# kingdom_hash = { 
-#   :Kingdom => {
-#   :Phylum => {
-#     :Kingdom => {},
-#       :Class => {
-#       :Kingdom => {}, 
-#       :Phylum => {},
-#         :Order => {
-#         :Kingdom => {},
-#         :Phylum => {},
-#         :Class => {},
-#           :Family => {
-#           :Kingdom => {},
-#           :Phylum => {},
-#           :Class => {},
-#           :Order => {},
-#             :Genus => {
-#               :Kingdom => {},
-#               :Phylum => {},
-#               :Class => {},
-#               :Order => {},
-#               :Family => {},
-#               :Species => {
-#                 :Kingdom => {},
-#                 :Phylum => {},
-#                 :Class => {},
-#                 :Order => {},
-#                 :Family => {},
-#                 :Genus => {}
-#               },
-#           },
-#         },
-#       },
-#     },
-#   },
-# },
-# }
+
 
