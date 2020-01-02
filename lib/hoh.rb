@@ -6,9 +6,8 @@ first_node = {
     }
   }
 }
-}
- 
-second_node = {
+},
+{
   :Order => {}
 }
  
