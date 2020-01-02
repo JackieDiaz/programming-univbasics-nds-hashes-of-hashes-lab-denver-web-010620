@@ -97,7 +97,7 @@ end
 # },
 # }
 
-=======
+# =======
 first_node = { 
   :Kingdom => {
    :Phylum => {
@@ -121,8 +121,8 @@ first_node = {
  forth_node = {
    :Species => {}
  }
- 
->>>>>>> 42936adc867891e72ca0c0c7d6bb689f4bae0201
+ end 
+# >>>>>>> 42936adc867891e72ca0c0c7d6bb689f4bae0201
   # Remember:
   #  Kingdom
   #  Phylum
