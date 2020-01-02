@@ -31,7 +31,7 @@
 # }
 
 def naming_system
-<<<<<<< HEAD
+# <<<<<<< HEAD
 kingdom_hash = { 
   :Kingdom => {
    :Phylum => {
@@ -98,30 +98,30 @@ end
 # }
 
 # =======
-first_node = { 
-  :Kingdom => {
-   :Phylum => {
-     :Class => {
-    }
-  }
- }
-}
+# first_node = { 
+#   :Kingdom => {
+#   :Phylum => {
+#     :Class => {
+#     }
+#   }
+# }
+# }
  
- second_node = {
-   :Order => {}
- }
+# second_node = {
+#   :Order => {}
+# }
  
- third_node = {
-   :Family => {
-    :Genus => {
-   }
-  }
- }
+# third_node = {
+#   :Family => {
+#     :Genus => {
+#   }
+#   }
+# }
  
- forth_node = {
-   :Species => {}
- }
- end 
+# forth_node = {
+#   :Species => {}
+# }
+# end 
 # >>>>>>> 42936adc867891e72ca0c0c7d6bb689f4bae0201
   # Remember:
   #  Kingdom
