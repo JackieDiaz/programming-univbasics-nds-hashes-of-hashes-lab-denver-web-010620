@@ -42,8 +42,6 @@ starting_node = {
             :Kingdom => {},
             :Phylum => {},
             :Class => {},
-            
-        family =
           :Family => {
           :Kingdom => {},
           :Phylum => {},
@@ -65,9 +63,10 @@ starting_node = {
               },
           },
         },
+    },
+   },
   },
-},
-}
+}  
 end 
   
 #       family =
