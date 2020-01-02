@@ -31,7 +31,9 @@
 # }
 def naming_system
 first_node = { 
-  :Kingdom => 
+  :Species => {
+    
+  }
   
   
 #   :Kingdom => {
@@ -136,6 +138,5 @@ first_node = {
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-
 
 
