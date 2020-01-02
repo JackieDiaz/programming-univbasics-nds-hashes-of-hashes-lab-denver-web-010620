@@ -30,20 +30,23 @@ require "pry"
 #   label: "Species",
 #   sub_category: nil
 # }
+
+
+  }
 def naming_system
 starting_node = { 
   :Kingdom => {},
-   :Phylum => {
-     :Kingdom => {},
+  :Phylum => {
+    :Kingdom => {},
       :Class => {
         :Kingdom => {},
         :Phylum => {}, 
-           :Order => {
+          :Order => {
             :Kingdom => {},
             :Phylum => {},
             :Class => {},
       },
-   },
+  },
   },
 }  
 end 
@@ -51,7 +54,7 @@ end
 #           :Kingdom => {},
 #           :Phylum => {},
 #           :Class => {},
-#             :Order => {},
+#           :Order => {},
 #             :Genus => {
 #               :Kingdom => {},
 #               :Phylum => {},
