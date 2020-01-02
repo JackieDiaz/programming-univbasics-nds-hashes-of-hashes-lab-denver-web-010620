@@ -31,10 +31,8 @@
 # }
 def naming_system
 first_node = { 
-  :Species => {
-    :Genus => 
-  }
-  
+  :Kingdom=>{:Phylum=>{:Class=>{:Order=>{}}}}}
+end 
   
 #   :Kingdom => {
 #   :Phylum => {
