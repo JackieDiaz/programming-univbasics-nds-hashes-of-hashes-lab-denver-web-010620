@@ -30,47 +30,47 @@
 #   sub_category: nil
 # }
 
-def naming_system
+# def naming_system
 # <<<<<<< HEAD
-kingdom_hash = { 
-  :Kingdom => {
-   :Phylum => {
-     :Kingdom => {},
-      :Class => {
-       :Kingdom => {
-         :Phylum => {},
-       :Phylum => {
-         :Kingdom => {
-         :Phylum => {},
-       :Order => {
-         :Kingdom => {
-          :Phylum => {
-          :Class => {},  
-         :Phylum => {
-           :Kingdom =>{
-            :Phylum => {
-              :Class => {},
-         :Class => {
-           :Kingdom => {
-           :Phylum => {
-           :Class => {},
-             }, 
-           },
-         },
-       },
-      },
-   },
-  },
-},
-           },
-         },
-           },
-           }, 
-         },
-       },
-  },
-}
-end
+# kingdom_hash = { 
+#   :Kingdom => {
+#   :Phylum => {
+#     :Kingdom => {},
+#       :Class => {
+#       :Kingdom => {
+#         :Phylum => {},
+#       :Phylum => {
+#         :Kingdom => {
+#         :Phylum => {},
+#       :Order => {
+#         :Kingdom => {
+#           :Phylum => {
+#           :Class => {},  
+#         :Phylum => {
+#           :Kingdom =>{
+#             :Phylum => {
+#               :Class => {},
+#         :Class => {
+#           :Kingdom => {
+#           :Phylum => {
+#           :Class => {},
+#             }, 
+#           },
+#         },
+#       },
+#       },
+#   },
+#   },
+# },
+#           },
+#         },
+#           },
+#           }, 
+#         },
+#       },
+#   },
+# }
+# end
 #       family =
 #           :Family => {
 #           :Kingdom => {},
@@ -98,30 +98,30 @@ end
 # }
 
 # =======
-# first_node = { 
-#   :Kingdom => {
-#   :Phylum => {
-#     :Class => {
-#     }
-#   }
-# }
-# }
+first_node = { 
+  :Kingdom => {
+  :Phylum => {
+    :Class => {
+    }
+  }
+}
+}
  
-# second_node = {
-#   :Order => {}
-# }
+second_node = {
+  :Order => {}
+}
  
-# third_node = {
-#   :Family => {
-#     :Genus => {
-#   }
-#   }
-# }
+third_node = {
+  :Family => {
+    :Genus => {
+  }
+  }
+}
  
-# forth_node = {
-#   :Species => {}
-# }
-# end 
+forth_node = {
+  :Species => {}
+}
+end 
 # >>>>>>> 42936adc867891e72ca0c0c7d6bb689f4bae0201
   # Remember:
   #  Kingdom
