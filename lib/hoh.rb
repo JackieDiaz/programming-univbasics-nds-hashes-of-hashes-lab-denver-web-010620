@@ -1,30 +1,3 @@
-def naming_system
-first_node = { 
-  :Kingdom
-  
-  
-#   :Kingdom => {
-#   :Phylum => {
-#     :Class => {
-#     }
-#   }
-# }
-# },
-# {
-#   :Order => {}
-# }
- 
-# third_node = {
-#   :Family => {
-#     :Genus => {
-#   }
-#   }
-# }
- 
-# forth_node = {
-#   :Species => {}
-# }
-# end 
 # Build a nested HoH of the classification of biological life on Earth based
 # on these commented-out snippets assigned to PORTION_1-PORTION_4. Return
 # that HoH as the return value for the method "naming_system."
@@ -56,6 +29,33 @@ first_node = {
 #   label: "Species",
 #   sub_category: nil
 # }
+def naming_system
+first_node = { 
+  :Kingdom
+  
+  
+#   :Kingdom => {
+#   :Phylum => {
+#     :Class => {
+#     }
+#   }
+# }
+# },
+# {
+#   :Order => {}
+# }
+ 
+# third_node = {
+#   :Family => {
+#     :Genus => {
+#   }
+#   }
+# }
+ 
+# forth_node = {
+#   :Species => {}
+# }
+# end 
 
 # def naming_system
 # <<<<<<< HEAD
