@@ -1,3 +1,4 @@
+require "pry"
 # Build a nested HoH of the classification of biological life on Earth based
 # on these commented-out snippets assigned to PORTION_1-PORTION_4. Return
 # that HoH as the return value for the method "naming_system."
@@ -32,6 +33,7 @@
 def naming_system
 first_node = { 
   :Kingdom=>{:Phylum=>{:Class=>{:Order=>{}}}}}
+  binding.pry 
 end 
   
 #   :Kingdom => {
