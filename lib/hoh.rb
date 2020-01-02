@@ -40,7 +40,7 @@ starting_node = {
         :Phylum => {}, 
       },
    },
-  order = :Order => {
+           :Order => {
             :Kingdom => {},
             :Phylum => {},
             :Class => {},
