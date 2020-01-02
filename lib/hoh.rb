@@ -40,13 +40,12 @@ starting_node = {
         :Phylum => {}, 
       },
    },
-
- 
   order = :Order => {
             :Kingdom => {},
             :Phylum => {},
             :Class => {},
-  }
+  },
+}  
 end 
 #         family =  :Family => {
 #           :Kingdom => {},
