@@ -38,15 +38,15 @@ starting_node = {
       :Class => {
         :Kingdom => {},
         :Phylum => {},
-          :Order => {
+        order = :Order => {
             :Kingdom => {},
             :Phylum => {},
             :Class => {},
-          :Family => {
+        family =  :Family => {
           :Kingdom => {},
           :Phylum => {},
           :Class => {},
-          :Order => {},
+            :Order => {},
             :Genus => {
               :Kingdom => {},
               :Phylum => {},
