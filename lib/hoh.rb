@@ -43,10 +43,31 @@ starting_node = {
             :Phylum => {},
             :Class => {},
             
-          }
-      }
-   }
-} 
+        family =
+          :Family => {
+          :Kingdom => {},
+          :Phylum => {},
+          :Class => {},
+          :Order => {},
+            :Genus => {
+              :Kingdom => {},
+              :Phylum => {},
+              :Class => {},
+              :Order => {},
+              :Family => {},
+              :Species => {
+                :Kingdom => {},
+                :Phylum => {},
+                :Class => {},
+                :Order => {},
+                :Family => {},
+                :Genus => {}
+              },
+          },
+        },
+  },
+},
+}
 end 
   
 #       family =
