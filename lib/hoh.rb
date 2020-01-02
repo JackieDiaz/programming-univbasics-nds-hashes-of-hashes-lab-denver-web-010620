@@ -37,11 +37,15 @@ starting_node = {
      :Kingdom => {},
       :Class => {
         :Kingdom => {},
-        :Phylum => {},
-        order = :Order => {
+        :Phylum => {}, 
+      },
+   },
+} 
+  order = :Order => {
             :Kingdom => {},
             :Phylum => {},
             :Class => {},
+  }
         family =  :Family => {
           :Kingdom => {},
           :Phylum => {},
