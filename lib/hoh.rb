@@ -31,9 +31,8 @@ require "pry"
 #   sub_category: nil
 # }
 def naming_system
-first_node = { 
+starting_node = { 
   :Kingdom=>{:Phylum=>{:Class=>{:Order=>{}}}}}
-  binding.pry 
 end 
   
 #   :Kingdom => {
