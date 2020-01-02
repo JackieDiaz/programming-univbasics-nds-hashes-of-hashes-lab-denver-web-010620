@@ -47,6 +47,7 @@ starting_node = {
             :Phylum => {},
             :Class => {},
   }
+end 
         family =  :Family => {
           :Kingdom => {},
           :Phylum => {},
