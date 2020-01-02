@@ -31,7 +31,7 @@
 # }
 def naming_system
 first_node = { 
-  :Kingdom
+  :Kingdom => 
   
   
 #   :Kingdom => {
