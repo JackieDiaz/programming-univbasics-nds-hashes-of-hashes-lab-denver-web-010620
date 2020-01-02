@@ -32,9 +32,47 @@ require "pry"
 # }
 def naming_system
 starting_node = { 
-  :Kingdom=>{:Phylum=>{:Class=>{:Order=>{}}}}}
+  :Kingdom => {},
+   :Phylum => {
+     :Kingdom => {},
+      :Class => {
+        :Kingdom => {},
+        :Phylum => {},
+          :Order => {
+            :Kingdom => {},
+            :Phylum => {},
+            :Class => {},
+          }
+      }
+   }
+} 
 end 
   
+#       family =
+#           :Family => {
+#           :Kingdom => {},
+#           :Phylum => {},
+#           :Class => {},
+#           :Order => {},
+#             :Genus => {
+#               :Kingdom => {},
+#               :Phylum => {},
+#               :Class => {},
+#               :Order => {},
+#               :Family => {},
+#               :Species => {
+#                 :Kingdom => {},
+#                 :Phylum => {},
+#                 :Class => {},
+#                 :Order => {},
+#                 :Family => {},
+#                 :Genus => {}
+#               },
+#           },
+#         },
+#   },
+# },
+# }
 #   :Kingdom => {
 #   :Phylum => {
 #     :Class => {
@@ -99,31 +137,6 @@ end
 #   },
 # }
 # end
-#       family =
-#           :Family => {
-#           :Kingdom => {},
-#           :Phylum => {},
-#           :Class => {},
-#           :Order => {},
-#             :Genus => {
-#               :Kingdom => {},
-#               :Phylum => {},
-#               :Class => {},
-#               :Order => {},
-#               :Family => {},
-#               :Species => {
-#                 :Kingdom => {},
-#                 :Phylum => {},
-#                 :Class => {},
-#                 :Order => {},
-#                 :Family => {},
-#                 :Genus => {}
-#               },
-#           },
-#         },
-#   },
-# },
-# }
 
 # =======
 # >>>>>>> 42936adc867891e72ca0c0c7d6bb689f4bae0201
